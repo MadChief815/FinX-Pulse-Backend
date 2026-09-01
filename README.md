@@ -55,6 +55,8 @@ python manage.py runserver
 
 API: `http://127.0.0.1:8000`
 
-## License
+## Backend
 
-Licensed under the **Apache License 2.0**.
+This backend requires the **Finx Pulse Frontend**:
+
+https://github.com/MadChief815/FinX-Pulse-Frontend

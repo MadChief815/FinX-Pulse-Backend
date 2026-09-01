@@ -1,0 +1,1 @@
+from FinX_Pulse_Backend.serializers import BaseSerializer
