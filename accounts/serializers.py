@@ -43,6 +43,7 @@ class RegisterSerializer(serializers.ModelSerializer):
 	def create(self, validated_data):
 		return User.objects.create_user(**validated_data)
 
+
 class LoginSerializer(TokenObtainPairSerializer):
     identifier = serializers.CharField(
         write_only=True,
